@@ -10,10 +10,11 @@ i m using this remote on my raspberry pi which is not exposed to the internet
 if you want a minimalistic webserver, you can use php5-cli:
 
 please check you have php >= 5.4
-
+```bash
 apt-get install php5-cli
 mkdir /home/pi/remote/
-
-#put index in /home/pi/remote/
-#then launch
+```
+then launch the server
+```bash
 /usr/bin/php5 -S 0.0.0.0:80 -t /home/pi/remote/
+```
