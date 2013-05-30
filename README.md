@@ -13,8 +13,10 @@ please check you have php >= 5.4
 ```bash
 apt-get install php5-cli
 mkdir /home/pi/remote/
+wget -q -O - https://raw.github.com/lycoch/phpremotecontrol/master/index.php > /home/pi/remote/index.php
 ```
 then launch the server
 ```bash
 /usr/bin/php5 -S 0.0.0.0:80 -t /home/pi/remote/
 ```
+
