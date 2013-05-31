@@ -20,3 +20,5 @@ then launch the server
 /usr/bin/php5 -S 0.0.0.0:80 -t /home/pi/remote/
 ```
 
+you should edit the config to change the unix command
+i m using mpd with mpc client in the default config
